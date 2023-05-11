@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+~/.bash_profile
+## 建立專案
+```
+$ vue create [project name]
+```
+
