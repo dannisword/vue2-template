@@ -1,0 +1,104 @@
+.form-container {
+    border: solid;
+    border-radius: 12px;
+    border-color: #eeeeee;
+    border-width: 1px;
+
+    .el-form-item {
+        margin: 13px;
+    }
+}
+
+.form-divider {
+    display: block;
+    height: 0px;
+    margin: 0px;
+}
+
+
+.table-container {
+    margin-top: 8px;
+    width: 100%;
+
+    table.el-table__header,
+    table.el-table__header th {
+        color: #000000;
+        background-color: #e2e2e2 !important;
+    }
+
+    table.el-table__header,
+    table.el-table__header th {
+        color: #304156;
+        background-color: #e2e2e2 !important;
+    }
+
+    .el-table__body tr.hover-row>td {
+
+        background-color: #e7f2ff !important;
+    }
+
+
+    .el-table__body tr.el-table__row--striped td {
+        background: rgb(0 0 0 / 5%) !important;
+    }
+
+}
+
+
+.table-header {
+    background: #304156 !important; // !important needed here to override default style
+    width: 100%;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+// 字體
+.el-form-item__label {
+    font-size: $--font-size;
+}
+
+.el-input__inner {
+    font-size: $--font-size;
+}
+
+.el-table {
+    font-size: $--font-size;
+}
+
+.el-button {
+    font-size: $--font-size;
+}
+
+.el-input.is-disabled .el-input__inner {
+    color: #757575;
+}
+
+/*
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner{
+    background-color: #409EFF;
+}*/
+.form-item-label-30 .el-form-item__label {
+    font-size: 30px;
+
+}
+
+.form-item-label-30 .el-input {
+    width: 300px;
+}
+
+.label-blue-color .el-form-item__label {
+    color: #1e88e5;
+}
+
+.el-loading-spinner {
+    top: 18%;
+    .el-loading-text {
+        font-size: x-large;
+    }
+}
